@@ -997,7 +997,7 @@ const confirmDeleteRow = (row: number) => {
               </template>
             </LazySmartsheetRow>
 
-            <tr v-if="isAddingEmptyRowAllowed">
+            <!-- <tr v-if="isAddingEmptyRowAllowed">
               <td
                 v-e="['c:row:add:grid-bottom']"
                 :colspan="visibleColLength + 1"
@@ -1012,7 +1012,7 @@ const confirmDeleteRow = (row: number) => {
                   </span>
                 </div>
               </td>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
 

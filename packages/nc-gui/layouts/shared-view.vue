@@ -52,10 +52,10 @@ export default {
       <a-layout-header class="flex !bg-primary items-center text-white pl-3 pr-4 shadow-lg">
         <div class="transition-all duration-200 p-2 cursor-pointer transform hover:scale-105" @click="navigateTo('/')">
           <a-tooltip placement="bottom">
-            <template #title>
+            <!-- <template #title>
               {{ appInfo.version }}
             </template>
-            <img width="35" alt="NocoDB" src="~/assets/img/icons/512x512-trans.png" />
+            <img width="35" alt="NocoDB" src="~/assets/img/icons/512x512-trans.png" /> -->
           </a-tooltip>
         </div>
 
